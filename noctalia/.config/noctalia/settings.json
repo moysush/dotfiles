@@ -175,6 +175,9 @@
             ],
             "right": [
                 {
+                    "id": "plugin:catwalk"
+                },
+                {
                     "blacklist": [
                     ],
                     "chevronColor": "none",
@@ -229,6 +232,11 @@
                     "textColor": "none"
                 },
                 {
+                    "defaultSettings": {
+                    },
+                    "id": "plugin:kde-connect"
+                },
+                {
                     "clockColor": "none",
                     "customFont": "",
                     "formatHorizontal": "ddd, MMM dd HH:mm",
@@ -236,11 +244,6 @@
                     "id": "Clock",
                     "tooltipFormat": "HH:mm ddd, MMM dd",
                     "useCustomFont": false
-                },
-                {
-                    "defaultSettings": {
-                    },
-                    "id": "plugin:kde-connect"
                 },
                 {
                     "iconColor": "error",
@@ -278,7 +281,7 @@
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "",
-        "predefinedScheme": "Noctalia (default)",
+        "predefinedScheme": "Noctalia legacy",
         "schedulingMode": "off",
         "syncGsettings": true,
         "useWallpaperColors": false
